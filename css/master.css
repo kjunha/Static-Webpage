@@ -1,1 +1,110 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
 
+.custom-section-wrapper {
+  margin-bottom: 30px;
+}
+
+.custom-fill-in {
+  width: 55vw;
+  padding: 12vh 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+}
+
+.custom-fill-in-bright {
+  width: 55vw;
+  padding: 3vh 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  text-align: center;
+}
+
+.custom-infographics {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-info-model {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+}
+
+.custom-heading {
+  text-align: center;
+}
+
+/* Text Style Class Section */
+.custom-large-text {
+  font-size: 22pt;
+}
+
+.custom-large-title-text {
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.custom-medium-text {
+  font-size: 14pt;
+}
+
+.custom-medium-title-text {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.custom-small-text {
+  font-size: 8pt;
+}
+
+.custom-small-title-text {
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.custom-icon-large {
+  font-size: 73pt;
+}
+
+/* Color Style Class Section */
+.custom-color-award {
+  color: #eae180;
+}
+
+#experiences {
+  background-image: url(/res/bg-experience.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#certifications {
+  background-image: url(/res/bg-trophy.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#education {
+  background-image: url(/res/school_official.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
