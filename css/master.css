@@ -8,10 +8,13 @@ body {
 
 .custom-fill-in {
   width: 55vw;
-  padding: 12vh 0;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   text-align: center;
+}
+
+.custom-padded {
+  padding: 12vh 0;
 }
 
 .custom-fill-in-bright {
@@ -36,6 +39,28 @@ body {
 }
 
 .custom-heading {
+  text-align: center;
+}
+
+.custom-paragraph-and-content {
+  display: flex;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 20px 0;
+}
+
+.custom-paragraph-and-content > p {
+  flex: 1;
+}
+
+.custom-paragraph-and-content > * {
+  margin: 0 5px;
+}
+
+.custom-footer {
+  background: #333333;
+  color: white;
   text-align: center;
 }
 
@@ -76,15 +101,22 @@ body {
   color: #eae180;
 }
 
+#aboutme {
+  background-image: url(/res/iam-background.png);
+  background-size: cover;
+  background-position: right;
+}
+
 #experiences {
   background-image: url(/res/bg-experience.jpg);
   background-size: cover;
   background-position: center;
-  height: 55vh;
   margin-bottom: 15px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: auto;
 }
 
 #certifications {

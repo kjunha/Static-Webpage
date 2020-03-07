@@ -41,7 +41,7 @@
         </nav>
       </div>
 
-      <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+      <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark" id="aboutme">
         <div class="col-md-6 px-0">
           <h1 class="display-4">Junha Kim</h1>
           <p class="lead my-3">
@@ -50,7 +50,11 @@
             majoring in Computer Science. Love to learn and build something new.
             The expected Graduation is in April, 2020.
           </p>
-          <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">View My Resume</a> -or- <a href="#" class="text-white font-weight-bold">Recommend me on Linkedin</a></p>
+          <p class="lead mb-0">
+            <a href="/res/Resume-Junha,Kim v4.0.1.pdf" class="text-white font-weight-bold">View My Resume</a>
+             -or-
+            <a href="https://www.linkedin.com/in/junhadkim/" class="text-white font-weight-bold">Recommend me on Linkedin</a>
+          </p>
         </div>
       </div>
 
@@ -100,9 +104,12 @@
         <!-- Education -->
         <div class="custom-section-wrapper">
           <div id="education">
-            <div class="custom-fill-in">
+            <div class="custom-fill-in custom-padded">
               <p class="custom-large-title-text">
-                B.S. Computer Science at Brigham Young University - Hawaii
+                B.S. Computer Science
+              </p>
+              <p class="custom-large-title-text">
+                at Brigham Young University - Hawaii
               </p>
               <p class="custom-medium-text">
                 Class of 2020 [2012.09-2020.04]
@@ -129,7 +136,7 @@
         <!-- Certifications -->
         <div class="custom-section-wrapper">
           <div id="certifications">
-            <div class="custom-fill-in">
+            <div class="custom-fill-in custom-padded">
               <p class="custom-large-title-text">Awards and Certifications</p>
               <div class="custom-infographics">
                 <div class="custom-info-model" style="border:solid #dec043 3px;">
@@ -180,8 +187,47 @@
         <div class="custom-section-wrapper">
           <div id="experiences">
             <div class="custom-fill-in">
-              <p class="custom-large-title-text"></p>
-              <p class="custom-medium-text"></p>
+              <p class="custom-large-title-text">Case Study: PCC New Canoe Pagent Show(Huki) Perception Analysis</p>
+              <p class="custom-medium-title-text">
+                Perception Analysis performed and analyzed to measure the betterment of the service
+                and to find any parts to improve.
+              </p>
+              <div class="custom-paragraph-and-content">
+                <p class="custom-medium-text">
+                  In 2018 August, PCC launched a new canoe pageant show called
+                  'Huki' and they want to measure if the change of the show affects positively
+                  on their guest experience. My research team implemented perception analysis
+                  method to do the survey, and 8 data collection session has been
+                  conducted to collect data from over 300 guests.
+                </p>
+                <img class="custom-side-contents" src="/res/img-huki.jpg" alt="huki" style="width:15vw; height:auto;">
+              </div>
+              <div class="custom-paragraph-and-content">
+                <img class="custom-side-contents" src="/res/dataflow-diagram.png" alt="dataflow" style="width:15vw; height:auto;">
+                <p class="custom-medium-text">
+                  In each data collection session, a guest receives a dial
+                  that they can tune into to score each moment of the show.
+                  a dial reports to the console each second the current measurement,
+                  and the console saves it as a raw database.
+                </p>
+              </div>
+              <div class="custom-paragraph-and-content">
+                <p class="custom-medium-text">
+                  After the data collection sessions, I developed an algorithm
+                  to clean up and organize data according to the purpose.
+                  First, the data of a participant who didn't follow the general
+                  trends of the show was cleaned to see the generalized outcome.
+                  Second, a participant who has a lower variation has cleaned to
+                  check the opinions of outliers.
+                </p>
+                <img class="custom-side-contents" src="/res/sample-data.png" alt="sample1" style="width:15vw; height:auto;">
+              </div>
+              <div class="custom-paragraph-and-content">
+                <p class="custom-medium-title-text">
+                  The data has been used and positively affected to help the guest
+                  to have a better experience with the show.
+                </p>
+              </div>
             </div>
           </div>
           <div class="custom-infographics">
@@ -204,9 +250,9 @@
 
     </main><!-- /.container -->
 
-    <footer class="blog-footer">
-        <a href="#">Back to top</a>
-      </p>
+    <footer class="custom-footer">
+      <p>Created by. Junha Kim at Brigham Young University - Hawaii &#169; 2020</p>
+      <a href="#">Back to top</a>
     </footer>
 
     <!-- Bootstrap core JavaScript
